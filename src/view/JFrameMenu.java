@@ -56,12 +56,12 @@ public class JFrameMenu extends JFrame {
 		getContentPane().add(panelLogo);
 		panelLogo.setLayout(null);
 		
-		JLabel lblBellaCris = new JLabel("BellaCris");
-		lblBellaCris.setBounds(0, 0, 240, 60);
-		panelLogo.add(lblBellaCris);
-		lblBellaCris.setForeground(new Color(255, 255, 255));
-		lblBellaCris.setFont(new Font("Tahoma", Font.BOLD, 30));
-		lblBellaCris.setHorizontalAlignment(SwingConstants.CENTER);
+		JLabel lblNomeLoja = new JLabel("Nome Loja");
+		lblNomeLoja.setBounds(0, 0, 240, 60);
+		panelLogo.add(lblNomeLoja);
+		lblNomeLoja.setForeground(new Color(255, 255, 255));
+		lblNomeLoja.setFont(new Font("Tahoma", Font.BOLD, 30));
+		lblNomeLoja.setHorizontalAlignment(SwingConstants.CENTER);
 		
 		Panel sidebar = new Panel();
 		sidebar.setBackground(new Color(255, 102, 102));
